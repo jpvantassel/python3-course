@@ -1,6 +1,6 @@
 # Python Installation
 
->Joseph Vantassel, University of Texas at Austin
+>Joseph Vantassel, The University of Texas at Austin
 
 1. Visit [python.org](https://www.python.org/).
 
@@ -29,10 +29,10 @@ installing will be findable through the terminal.
 Powershell (recommended) or Command Prompt on a Windows machine, and enter
 `python --version` you should see the name of the Python version that you
 selected in step 4. For example, if you downloaded Python 3.7.5 you should see
-`Python 3.7.5` printed to the console. If you do not see the correct version
+`Python 3.7.5` printed to the console. _Note: If you do not see the correct version
 number or you get an error that the program `python` cannot be found, this means
 that either the installation was not sucessful or that Python was not added to
-the path, refer to step 6. If this is the case uinstall the software and repeat
-the above steps, paying special attention to follow all of the directions.
+the path, refer to step 6. If this is the case uninstall the software and repeat
+the above steps, paying special attention to follow all of the directions._
 
 9. Enjoy!
