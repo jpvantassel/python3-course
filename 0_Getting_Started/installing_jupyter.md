@@ -8,10 +8,10 @@ done so previously.
 2. Open a terminal, either Windows Powershell (recommended) or Command Prompt on
 a Windows machine, and enter `pip install jupyter`.
 
-3. Ensure `jupyter` installed correctly by reading the last few lines printed
+3. Ensure Jupyter installed correctly by reading the last few lines printed
 to the console.
 
-4. To run Jypyter in a particular directory. First, open a terminal in that
+4. To run Jupyter in a particular directory. First, open a terminal in that
 directory then enter `jupyter notebook` into the terminal. A Jupyter notebook
 interface will then open shortly in a web-brower. Double-click any notebook
 (i.e., files ending in `.ipynb`) to begin.
