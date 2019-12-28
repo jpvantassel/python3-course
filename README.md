@@ -29,4 +29,6 @@ added or if previously skipped modules have recently become revalent.
   - [Installing Jupyter](./0_Getting_Started/installing_jupyter.md)
 - Installling Packages
   - [pip](./1_Installing_Packages/pip.md)
+- Virutal Environments
+  - [Virtual Environments](./2_Virtual_Environments/virtualenvironments.md)
   
