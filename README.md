@@ -31,4 +31,7 @@ added or if previously skipped modules have recently become revalent.
   - [pip](./1_Installing_Packages/pip.md)
 - Virutal Environments
   - [Virtual Environments](./2_Virtual_Environments/virtualenvironments.md)
+- Modules and Packages
+  - [Modules](./3_Modules_and_Packages/modules.md)
+  - [Packages](./3_Modules_and_Packages/packages.md)
   
