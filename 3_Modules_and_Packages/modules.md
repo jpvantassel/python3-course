@@ -10,7 +10,7 @@ Python code.
 classes) related to a particular use case.
 - Modules can be loaded using the keyword `import`.
 - Import statements generally appear in the firt few lines of a Python program
-and with syntax similar to the following:
+with syntax similar to the following:
 
 ```python3
 import this             # GOOD - Import contents in namespace this.
@@ -20,17 +20,21 @@ from this import *      # BAD - Import all contents without maintaining the name
 
 ## Why Modules
 
-Python modules allow code to be written in multiple files which keeps the main
-file (i.e., the one the user interacts with) clean and easy to use. Since the
-code has already been broken (i.e., factored) into multiple files each
-pertaining to a particular purpose, modules encourage and simplify code reuse.
+Python modules allow code written in one file to be imported into another. The
+ability to import code into one main file allows it to be kept clean of
+excess function and class definitions, thereby allowing the user to focus on
+_what_ the program is doing rather than _how_ it is being done. Additionally,
+since the code has already been broken into multiple files with each file
+containing code pertaining to a particular purpose, modules encourage and
+simplify code reuse.
 
 ## Basic Usage
 
 To see the benefits of modules, we need to first have a snipped of code that we
-think we may want to reuse in the future. A good example of this would be root
-finders. So we will create a module called `rootsearch.py` with a simple
-bisection functions.
+think we may want to reuse in the future. For this example we will use root
+search algorithms, specifically a simple bisection routine. Since our file will
+contain root search algorithms we name our moduel `rootsearch.py`. Its contents
+are show below.
 
 > rootsearch.py
 
@@ -53,22 +57,25 @@ def bisection(func, positive_guess, negative_guess, ntrials=50, tolerance=1E-6):
     return RuntimeError("Maximum number of iterations exceeded. Consider increasing ntrials or decreasing tolerance.")
 ```
 
-We can of course test our bisection functions in another modules with the
-following.
+With our re-usable bisection function defined, let's test it out. To do this we
+will import our rootsearch module and use our bisection function to find the
+root of a linear and parabolic equation.
 
 > tester.py
 
 ```python3
 import rootsearch as rs
 
+# Line
 def line(x, m=3, b=2):
     return (m*x + b)
 
-def parabola(x, a=2, b=4, c=-1):
-    return (a*x**2 + b*x + -50)
-
 line_root = rs.bisection(func=line, positive_guess=100, negative_guess=-100)
 print(f"The root of y=3x+2 is x={line_root}")                        # x=-0.6666
+
+# Parabola
+def parabola(x, a=2, b=4, c=-1):
+    return (a*x**2 + b*x + -50)
 
 parabola_root = rs.bisection(func=parabola, positive_guess=10, negative_guess=0)
 print(f"One of the roots of y=2x**2+4x-1 is x={parabola_root}")      # x=+4.0990
@@ -85,26 +92,31 @@ abandons the protection and additional context the namespace provides.
 ```python3
 from rootsearch import bisection
 
+# Line
 def line(x, m=3, b=2):
     return (m*x + b)
 
-def parabola(x, a=2, b=4, c=-1):
-    return (a*x**2 + b*x + -50)
-
 line_root = bisection(func=line, positive_guess=100, negative_guess=-100)
 print(f"The root of y=3x+2 is x={line_root}")                   # x=-0.6666
+
+# Parabola
+def parabola(x, a=2, b=4, c=-1):
+    return (a*x**2 + b*x + -50)
 
 parabola_root = bisection(func=parabola, positive_guess=10, negative_guess=0)
 print(f"One of the roots of y=2x**2+4x-1 is x={parabola_root}") # x=+4.0990
 ```
 
-A common practice when importing is to use the syntax `from module import *`,
-this imports everything from `module` without preserving the namespace. This
-__should almost always be avoided__ as you may accidentally use variables,
-functions, or classes with names that are the same as those inside `module` and
-unwittingly overwrite them. By doing so the module may no longer appear to work
-causing you to beleive the bug is in the module and not the code you have
-written. Namespaces afterall are _"are one honking great idea"_.
+### A Warning
+
+A pervasive practice when importing modules is to use the syntax
+`from module import *`, this imports everything from `module` without
+preserving the namespace. This __should almost always be avoided__ as you may
+accidentally use variable, function, or classe names that are the same as those
+inside `module` and unwittingly overwrite them. By doing so the module may no
+longer appear to work leading you to beleive the bug is in the module and not
+the code you have written. Namespaces after all _"are one honking great idea"_
+and we should embrace their use.
 
 ## Sources
 
