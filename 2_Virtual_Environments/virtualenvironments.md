@@ -138,6 +138,12 @@ syntax to evoke that Python interpreter in lieu of the host Python interpreter.
 virtualenv env --python=path/to/py    # Use specific Python interpreter.
 ```
 
+_Note:_ The path to the `python.exe` may be quite long and hard to
+find, for example: `/C/Users/Joe/AppData/Local/Programs/Python/Python38/python`.
+An easier way is to search for `python` at the start menu, `right-click` on
+the approprate version, and select `open file location`, then copy and path from
+the top bar of file explorer.
+
 ### Using Virtualenv with Jupyter
 
 ```bash
