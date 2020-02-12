@@ -19,8 +19,8 @@ available and would be a more appropriate place to begin.
 
 To get the most out of this course skip to those sections which you find the
 most interesting/useful, and leave the others until they become relavant to you.
-Check back regularly or follow the repository to see if new modules have been
-added or if previously skipped modules have recently become revalent.
+Check back regularly to see if new modules have been added or if previously
+skipped modules have recently become revalent.
 
 ## Table of Contents
 
@@ -34,4 +34,5 @@ added or if previously skipped modules have recently become revalent.
 - Modules and Packages
   - [Modules](./3_Modules_and_Packages/modules.md)
   - [Packages](./3_Modules_and_Packages/packages.md)
-  
+- Unit Testing
+  - [Unit Testing](./4_Unit_Testing/unittesting.md)
