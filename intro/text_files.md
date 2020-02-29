@@ -17,19 +17,19 @@ To read or write to a file has three main steps
 
 ### Basic syntax
 
-#### Read a file
-
-```python3
-with open("file.txt", "r", encoding="utf8") as f:
-  data = f.read()
-print(data)
-```
-
 #### Write to a file
 
 ```python3
-with open("file.txt", "w", encoding="utf8") as f:
+with open("example.txt", "w", encoding="utf8") as f:
   f.write("Example text")
+```
+
+#### Read a file
+
+```python3
+with open("example.txt", "r", encoding="utf8") as f:
+  data = f.read()
+print(data)
 ```
 
 ## Text Files
