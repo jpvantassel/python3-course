@@ -14,7 +14,7 @@ _Note: Releases (also known as versions) of Python follow the
 `major.minor.micro` convention. More information on Python versioning can be
 found [here](https://www.python.org/dev/peps/pep-0440/)_.
 
-4. Once you have found the version you want. Select the approprate installer.
+4. Once you have found the version you want. Select the appropriate installer.
 For modern computers with a Windows operating system this will be
 `Windows x86-64 executable installer`.
 
@@ -33,7 +33,7 @@ Powershell (recommended) or Command Prompt on a Windows machine, and enter
 selected in step 4. For example, if you downloaded Python 3.7.5 you should see
 `Python 3.7.5` printed to the console. _Note: If you do not see the correct version
 number or you get an error that the program `python` cannot be found, this means
-that either the installation was not sucessful or that Python was not added to
+that either the installation was not successful or that Python was not added to
 the path, refer to step 6. If this is the case uninstall the software and repeat
 the above steps, paying special attention to follow all of the directions._
 

@@ -15,7 +15,7 @@ to the console.
 
 4. To run Jupyter in a particular directory. First, open a terminal in that
 directory then enter `jupyter notebook` into the terminal. A Jupyter notebook
-interface will then open shortly in a web-brower. Double-click any notebook
+interface will then open shortly in a web-browser. Double-click any notebook
 (i.e., files ending in `.ipynb`) to begin.
 
 5. Enjoy!

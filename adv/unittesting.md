@@ -14,11 +14,11 @@ have a clear input and known output. The known output may be the result of a
 hand-calculation or a published solution from a reputable source. If using a
 published solution, be sure to include a reference for posterity. In all cases
 unit tests are written once (and only once) programmatically so that they can be
-performed quickly and repeatably.
+performed quickly and consistently.
 
 ## How to Unit Test
 
-Various frameworks, amoung the most popular:
+Various frameworks, among the most popular:
 
 - `unittest`
 - `pytest`
@@ -40,19 +40,19 @@ In this module we will discuss the `unittest` framework.
 4. __test runner__: A _test runner_ is a component which orchestrates the
     execution of tests.
 
-## Writting Unittests
+## Writing Unittests
 
-The good news is that writting a unit test is easy and straightforward. And odds
+The good news is that writing a unit test is easy and straightforward. And odds
 are that, even if you are not currently using a unit test framework, you are
 probably already "doing the hard part" by checking your code in some
 adhoc manner. All you need to do is to write these adhoc tests down
-programatically so that they can be repeated quickly and precisely.
+programmatically so that they can be repeated quickly and precisely.
 
 The challenging part of unit testing is selecting/developing test cases that
 are significant. You may think that all of your code is significant and you
 should have a test for every part of your code, and while this is a
-great goal it is often impossible/impracticle at a projects outset. Focus on
-writting unit tests for the parts of your code
+great goal it is often impossible/impractical at a projects outset. Focus on
+writing unit tests for the parts of your code
 which are fragile (i.e., most easily broken during refactoring),
 frequently called (e.g., methods in a base class), or have been the cause
 of previous bugs. Once you have these trouble areas covered then work to get to
@@ -62,12 +62,12 @@ that your code is correct.
 ### When should you write your unit tests
 
 The best time to write a unit test is at the time you write the corresponding
-code. You will already be familar with what the code is doing and should have a
+code. You will already be familiar with what the code is doing and should have a
 good feeling for things that could go wrong.
 
 The second best time to write a unit test is after you have just found and fixed
 a bug. You spent the time to find the bug, so use the reintroduction to your
-advantage by writting a test that will prevent this bug from re-emerging in the
+advantage by writing a test that will prevent this bug from re-emerging in the
 future.
 
 ### Where should you write your unit tests
@@ -83,11 +83,11 @@ There are two main schools of thought.
     - Do not need to change directories to run the test, by running the module
     you will automatically run its tests.
 
-2. In a seperate folder called `test` with a new file for each module.
+2. In a separate folder called `test` with a new file for each module.
 
     __Pros__
 
-    - The test module can be run seperately from the command line.
+    - The test module can be run separately from the command line.
     - The test code can more easily be separated from shipped code.
     - There is less temptation to change the test, rather than fixing the code.
     - Test code should be modified less frequently than the code it tests.
@@ -95,8 +95,8 @@ There are two main schools of thought.
     - If the testing strategy changes then there is no reasons to change the
     source.
 
-In short, if you are developing a module or package that is unliklely
-to be shared, writting your tests in the same file offers some advantages,
+In short, if you are developing a module or package that is unlikely
+to be shared, writing your tests in the same file offers some advantages,
 however placing your tests in a `test` folder with one test file per module is a
 more general and extensible option and is generally recommended.
 
@@ -177,12 +177,12 @@ OK
 ### setUp() and tearDown()
 
 Defining the methods `setUp()` and `tearDown()` in your _test suite_ allows for
-repetative preparation and clean-up opertations to be defined only once for all
+repetitive preparation and clean-up operations to be defined only once for all
 of the _test cases_ in the suite.
 
-- `setUp()`: Performs any repetative pre-test work. Runs automatically before
+- `setUp()`: Performs any repetitive pre-test work. Runs automatically before
 each _test case_.
-- `tearDown()`: Performs any repetative post-test clean-up. Run automatically
+- `tearDown()`: Performs any repetitive post-test clean-up. Run automatically
 after each _test case_, regardless of whether they were successful.
 
 ```python

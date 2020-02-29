@@ -11,7 +11,7 @@ Python code.
 - Modules are used primarily to organize code (typically functions or
 classes) related to a particular use case.
 - Modules can be loaded using the keyword `import`.
-- Import statements generally appear in the firt few lines of a Python program
+- Import statements generally appear in the first few lines of a Python program
 with syntax similar to the following:
 
 ```python3
@@ -35,7 +35,7 @@ simplify code reuse.
 To see the benefits of modules, we need to first have a snipped of code that we
 think we may want to reuse in the future. For this example we will use root
 search algorithms, specifically a simple bisection routine. Since our file will
-contain root search algorithms we name our moduel `rootsearch.py`. Its contents
+contain root search algorithms we name our module `rootsearch.py`. Its contents
 are show below.
 
 > rootsearch.py
@@ -114,9 +114,9 @@ print(f"One of the roots of y=2x**2+4x-1 is x={parabola_root}") # x=+4.0990
 A pervasive practice when importing modules is to use the syntax
 `from module import *`, this imports everything from `module` without
 preserving the namespace. This __should almost always be avoided__ as you may
-accidentally use variable, function, or classe names that are the same as those
+accidentally use variable, function, or class names that are the same as those
 inside `module` and unwittingly overwrite them. By doing so the module may no
-longer appear to work leading you to beleive the bug is in the module and not
+longer appear to work leading you to believe the bug is in the module and not
 the code you have written. Namespaces after all _"are one honking great idea"_
 and we should embrace their use.
 

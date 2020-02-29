@@ -1,20 +1,20 @@
 # Python Packages
 
-> Joseph P. Vantassel, The Univeristy of Texas at Austin
+> Joseph P. Vantassel, The University of Texas at Austin
 
 [![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/python3-course/blob/master/LICENSE.md)
 
 ## One-Minute Summary
 
 - A Python package is a module or collection of modules inside a directory with
-a moduled named `__init__.py` (note this module is typically empty).
-- A Python package may contain any number of subpackages (i.e., sub-directories
+a module named `__init__.py` (note this module is typically empty).
+- A Python package may contain any number of sub packages (i.e., sub-directories
 with their own `__init__.py`).
 - A Python package can be combined into a distribution package using the
 `setuptools` module and a `setup.py` file (details on a typical `setup.py` are
 listed [here](#`setup.py`)).
 - The Python Package Authority (PyPA) has created the Python Package Users Guide
-(PyPUG) as the definative reference for building and using Python packages.
+(PyPUG) as the definitive reference for building and using Python packages.
 
 ## What is a Python Package
 
@@ -22,7 +22,7 @@ A Python package is a module or collection of modules that has/have been bundled
 together for some purpose. [Modules](./modules.md) are simply saved
 Python code stored in a text file with a `.py` extension. The package in a
 literal sense is simply a directory containing the desired modules to be
-packaged and an additional module `__init__.py` (often refered to as a dunder
+packaged and an additional module `__init__.py` (often referred to as a dunder
 init), which may be and generally is empty.
 
 ## Types of Python Packages
@@ -31,16 +31,16 @@ The main benefit of packages is that they can combine multiple modules together
 and be built into what is called a distribution package. Distribution packages
 are what is being installed when you use [pip](../1_Installing_Packages/pip.md).
 
-There are two ways in which distrubtion packages can be released either as
+There are two ways in which distribution packages can be released either as
 source or pre-built.
 
 1. __Source Distributions__ - As-is Python code rolled into a compressed
-tarball. Will install on any architecture running a complient version of Python.
+tarball. Will install on any architecture running a compliant version of Python.
 2. __Built Distributions__ - Partially interpreted Python code. The old
 style of built distributions were `bdist_egg` which have since been replaced by
 `bdist_wheel`.
 
-The built distribtion `bdist_wheel` is the more common and can be one of three
+The built distribution `bdist_wheel` is the more common and can be one of three
 types.
 
 1. __Universal__ - Distribution will run on Python 2 and 3.
@@ -57,7 +57,7 @@ To transform your collection of code into a module, you will need the following:
 
 - Required Items
   - A directory with the same name as your package, inside of which is your
-  source code and an `__init__.py`. This directory may also contain subpackages
+  source code and an `__init__.py`. This directory may also contain sub packages
   (i.e., sub-directories with their own source code and `__init__.py`).
   - A `setup.py`, details on this file are shown below.
 - Optional (but still important)
@@ -69,7 +69,7 @@ To transform your collection of code into a module, you will need the following:
 - Optional (slightly less important)
   - A `./docs` directory where the documentation for your package is stored.
   - A `requirements.txt` file listing the packages required for developers (not
-  for users, depenencies for users are handled in the `setup.py`).
+  for users, dependencies for users are handled in the `setup.py`).
 
 ### `setup.py`
 
@@ -116,17 +116,17 @@ setup(
 ## Distributing a Package
 
 After having gone through the effort of packaging your Python code, you will
-inevitably wnat to share it with others. You can do this in multiple ways.
+inevitably what to share it with others. You can do this in multiple ways.
 
-### Sharing Built or Source Distribtions
+### Sharing Built or Source Distributions
 
-Sharing a built or source distribtuion is simple and involves two steps.
+Sharing a built or source distribution is simple and involves two steps.
 
-- Creating the source and/or built distribtion, using the syntax
+- Creating the source and/or built distribution, using the syntax
   - `python setup.py sdist` for source
   - `python setup.py bdist_wheel` for built, or
   - `python setup.py sdist bdist_wheel` for both.
-- Installing from the source or built distribtion, using the syntax
+- Installing from the source or built distribution, using the syntax
   - `pip install <*.tar.gz>` if from source or
   - `pip install <*.whl>` if from built.
 

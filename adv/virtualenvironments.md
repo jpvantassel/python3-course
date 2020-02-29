@@ -52,7 +52,7 @@ projects (e.g., Python 3.5 with the out-of-date dependencies), and develop the
 other using Python 3.7 as your default interpreter. Of course you could also
 create two virtual environments, one for each project. While this option
 requires an additional virtual environment it is recommended because it
-gives you the flexibiltiy/agility to update interpreters and packages on
+gives you the flexibility/agility to update interpreters and packages on
 your system at will, without concern for breaking any of your previous projects.
 
 ## Getting Started
@@ -60,7 +60,7 @@ your system at will, without concern for breaking any of your previous projects.
 Virtual environments can be created using the `virtualenv` package. Note that a
 stripped down version of `virtualenv` has been adopted into the standard
 library as `venv`. However because `virtualenv` has broader functionality it
-will be discussed in this moduel rather `venv`.
+will be discussed in this module rather `venv`.
 
 ### Installing `virtualenv`
 
@@ -114,7 +114,7 @@ pip list                              # see numpy has been added to packages
 
 ### Deactivating the Environment
 
-When you are done using the environmnet, deactivate it. _Note this will not
+When you are done using the environment, deactivate it. _Note this will not
 delete the environment, and you can re-activate it at anytime._
 
 ```bash
@@ -131,7 +131,7 @@ directory with the matching name.
 ### Using a Specific Version of Python
 
 If it is not specified, `virtualenv` will use the host Python interpreter. To
-use a specfic Python version, first install the desired Python interpreter,
+use a specific Python version, first install the desired Python interpreter,
 detailed instructions are provided
 [here](../0_Getting_Started/installing_python.md). Second, use the following
 syntax to evoke that Python interpreter in lieu of the host Python interpreter.
@@ -143,8 +143,8 @@ virtualenv env --python=path/to/py    # Use specific Python interpreter.
 _Note:_ The path to the `python.exe` may be quite long and hard to
 find, for example: `/C/Users/Joe/AppData/Local/Programs/Python/Python38/python`.
 An easier way is to search for `python` at the start menu, `right-click` on
-the approprate version, and select `open file location`, then copy and path from
-the top bar of file explorer.
+the appropriate version, and select `open file location`, then copy and path
+from the top bar of file explorer.
 
 ### Using Virtualenv with Jupyter
 
@@ -157,10 +157,10 @@ jupyter kernelspec list               # List the available kernels.
 jupyter notebook                      # Launch Jupyter.
 ```
 
-In Jupyter, `New>env` to start a new file using the virtal environment. To use
+In Jupyter, `New>env` to start a new file using the virtual environment. To use
 the virtual environment with an existing file you may need to make the change
 manually by selecting `Kernel>Change Kernel>env`. Regardless of how you select
-the kernel, make your changes and run the noteobok as usual. When done close
+the kernel, make your changes and run the notebook as usual. When done close
 Jupyter and `deactivate` the virtual environment.
 
 If you wish to remove the ipython kernel associated with the virtual environment
@@ -175,6 +175,6 @@ jupyter kernelspec list               # List the available kernels.
 
 [virtualenv Documentation](https://virtualenv.pypa.io/en/latest/)
 
-[Running Jupyter in Virtural Environment](https://medium.com/@eleroy/jupyter-notebook-in-a-virtual-environment-virtualenv-8f3c3448247)
+[Running Jupyter in Virtual Environment](https://medium.com/@eleroy/jupyter-notebook-in-a-virtual-environment-virtualenv-8f3c3448247)
 
-[Stack Overflow: Removing Jupter Kernel](https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook)
+[Stack Overflow: Removing Jupyter Kernel](https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook)

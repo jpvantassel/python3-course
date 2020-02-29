@@ -64,7 +64,7 @@ pip list                 # Note the addition of numpy and its version.
 ```
 
 _Note: If you already had `numpy` installed, this example was probably not that
-illustrative as you likely recieved a mesage stating with
+illustrative as you likely received a message stating with
 `Requirement already satisfied: ...`. So to better understand the process try
 the above procedure for a different package that you have not yet installed.
 Some useful packages include: `scipy`, `pandas`, and `matplotlib`._
@@ -93,7 +93,7 @@ the case.
 If you are developing a Python package for either private use or public
 distribution on PyPI, it is extremely useful to have a dynamically updated
 version of your package accessible on your machine. The syntax for a dynamic
-installation (more commonly refered to as an editable install) is simple.
+installation (more commonly referred to as an editable install) is simple.
 
 ```bash
 pip uninstall <mypkg>             # Uninstall previous version if it exists.
@@ -120,9 +120,9 @@ pip list                        # See the new package installed from source.
 #### Installing from a built distribution
 
 A built distribution may be used in similar cases as a source distribution,
-however built distrubtions are platform spefic, though they, in return, enlist
-shorter installation times. Regardless the `pip` syntax is similar in both
-cases.
+however built distributions are platform specific, though they, in return,
+enlist shorter installation times. Regardless the `pip` syntax is similar in
+both cases.
 
 ```bash
 pip list                        # View currently installed packages.
@@ -133,21 +133,21 @@ pip list                        # View the new package installed from built whee
 #### Installing from Github Repository
 
 For small open-source projects the author may not want to go through the trouble
-of submitting their project to PyPI and so may only provide their code on Github
+of submitting their project to PyPI and so may only provide their code on GitHub
 _Note: Other version control systems (VCS) are supported however are not
 discussed here, see the `pip` documentation for details._
 
-The exact syntax for the Github path can be tricky to get correct, but it will
+The exact syntax for the GitHub path can be tricky to get correct, but it will
 follow the format described below if using `ssh`.
 
 ```bash
 pip list                        # View currently installed packages.
-pip install git+ssh://git@rmturl/usrnm/pkg.git # Install directly from github.
-pip list                        # View the new package installed from github.
+pip install git+ssh://git@rmturl/usrnm/pkg.git # Install directly from GitHub.
+pip list                        # View the new package installed from GitHub.
 ```
 
-Note this method of installation will not work with any Github repository with
-Python code. First, the Github repository must be public or you must have been
+Note this method of installation will not work with any GitHub repository with
+Python code. First, the GitHub repository must be public or you must have been
 granted access. Second, the author(s) of the repository must have setup the
 code to be "package ready" (i.e., it contains at a minimum a `setup.py` with the
 necessary installation instructions for `pip`). If it is not clear from the
