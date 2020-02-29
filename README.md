@@ -2,6 +2,8 @@
 
 > Joseph P. Vantassel, The University of Texas at Austin
 
+[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/git-course/blob/master/LICENSE.md)
+
 ## Executive Summary
 
 This repository is a collection of independent modules to explain topics of
@@ -22,17 +24,6 @@ most interesting/useful, and leave the others until they become relavant to you.
 Check back regularly to see if new modules have been added or if previously
 skipped modules have recently become revalent.
 
-## Table of Contents
+All the best,
 
-- Getting Started
-  - [Installing Python](./0_Getting_Started/installing_python.md)
-  - [Installing Jupyter](./0_Getting_Started/installing_jupyter.md)
-- Installling Packages
-  - [pip](./1_Installing_Packages/pip.md)
-- Virutal Environments
-  - [Virtual Environments](./2_Virtual_Environments/virtualenvironments.md)
-- Modules and Packages
-  - [Modules](./3_Modules_and_Packages/modules.md)
-  - [Packages](./3_Modules_and_Packages/packages.md)
-- Unit Testing
-  - [Unit Testing](./4_Unit_Testing/unittesting.md)
+\- Joe

@@ -1,0 +1,13 @@
+numpy
+scipy
+pandas
+matplotlib
+obspy
+requests
+jupyter
+jupyterlab
+tox
+hypothesis
+unittest
+virtualenv
+sphinx

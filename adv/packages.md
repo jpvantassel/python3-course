@@ -2,6 +2,8 @@
 
 > Joseph P. Vantassel, The Univeristy of Texas at Austin
 
+[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/git-course/blob/master/LICENSE.md)
+
 ## One-Minute Summary
 
 - A Python package is a module or collection of modules inside a directory with

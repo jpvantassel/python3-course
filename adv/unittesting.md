@@ -2,6 +2,8 @@
 
 > Joseph P. Vantassel, The University of Texas at Austin
 
+[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/git-course/blob/master/LICENSE.md)
+
 ## What is Unit Testing
 
 __Unit testing__ is the automated process of checking the result of a small
