@@ -4,6 +4,9 @@
 
 [![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/git-course/blob/master/LICENSE.md)
 
+_If you viewing this on GitHub, please see the full site
+[here](https://jpvantassel.github.io/python3-course/)._
+
 ## Executive Summary
 
 This repository is a collection of independent modules to explain topics of
