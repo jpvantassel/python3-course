@@ -2,7 +2,7 @@
 
 > Joseph P. Vantassel, The University of Texas at Austin
 
-[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/git-course/blob/master/LICENSE.md)
+[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/python3-course/blob/master/LICENSE.md)
 
 _If you are viewing this on GitHub, please see the full site
 [here](https://jpvantassel.github.io/python3-course/)._

@@ -2,7 +2,7 @@
 
 >Joseph Vantassel, The University of Texas at Austin
 
-[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/git-course/blob/master/LICENSE.md)
+[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/python3-course/blob/master/LICENSE.md)
 
 1. [Install a modern Python interpreter](./installing_python.md) if you have not
 done so previously.
