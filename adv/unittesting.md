@@ -127,7 +127,7 @@ if __name__ == '__main__':                    # Return result of test, if main
 
 Which results in the following.
 
-```
+```bash
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
@@ -164,7 +164,7 @@ if __name__ == '__main__':                    # Return result of test, if main
 
 Which results in the following.
 
-```
+```bash
 ...
 ----------------------------------------------------------------------
 Ran 3 tests in 0.007s
@@ -212,7 +212,7 @@ if __name__ == '__main__':                    # Return result of test, if main
 
 Which results in the following.
 
-```
+```bash
 Hello from setup()
 Goodbye from tearDown()
 .Hello from setup()
