@@ -3,7 +3,8 @@
 import re
 import os
 
-test_files = ["intro/text_files.md"]
+test_files = ["intro/text_files.md",
+              "adv/numba.md"]
 
 parse = re.compile("```python3([^`]*)```", re.DOTALL)
 
@@ -21,5 +22,5 @@ for fname in test_files:
             print(f"File Name: {fname}")
             print(f"Code Block: {code_block}")
             raise e
-        
+
 os.remove("example.txt")

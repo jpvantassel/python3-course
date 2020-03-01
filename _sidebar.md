@@ -9,3 +9,4 @@
   * [Packages](adv/packages.md)
   * [Virtual Environments](adv/virtualenvironments.md)
   * [Unittesting](adv/unittesting.md)
+  * [Numba and Jit](adv/numba.md)
