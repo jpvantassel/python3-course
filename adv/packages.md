@@ -97,7 +97,7 @@ setup(
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
   ],
-  keywords='example practice',          # Space seperated keywords to improve search on PyPI.
+  keywords='example practice',          # Space separated keywords to improve search on PyPI.
   packages=find_packages(exclude=['docs', 'tests*']), # Have setuptools find the package.
   install_requires=['requests'],        # User installation dependencies.
   package_data={

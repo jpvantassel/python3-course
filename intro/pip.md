@@ -22,7 +22,7 @@ pip list                         # View all currently installed packages.
 pip install -e <path-to-setup.py>              # An "editable" install.
 pip install <*.tar.gz>                         # Install from source distribution.
 pip install <*.whl>                            # Install from build distribution.
-pip install git+ssh://git@rmturl/usrnm/pkg.git # Install directly from github.
+pip install git+ssh://git@rmturl/usrnm/pkg.git # Install directly from GitHub.
 ```
 
 ## What is pip
