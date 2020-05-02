@@ -3,7 +3,7 @@
   * [Installing Jupyter](intro/installing_jupyter.md)
   * [Pip](intro/pip.md)
   * [Modules](intro/modules.md)
-  * [File Reading and Writing](intro/text_files.md)
+  * [File Reading and Writing](intro/files.md)
 
 * Advanced Topics
   * [Packages](adv/packages.md)
