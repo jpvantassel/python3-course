@@ -10,3 +10,4 @@
   * [Virtual Environments](adv/virtualenvironments.md)
   * [Unittesting](adv/unittesting.md)
   * [Numba and Jit](adv/numba.md)
+  * [Subprocess](adv/subprocess.md)

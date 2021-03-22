@@ -4,7 +4,8 @@ import re
 import os
 
 test_files = ["intro/files.md",
-              "adv/numba.md"]
+              "adv/numba.md",
+              "adv/subprocess.md"]
 
 parse = re.compile("```python3([^`]*)```", re.DOTALL)
 
@@ -28,3 +29,4 @@ os.remove("example.json")
 os.remove("list_example.hdf5")
 os.remove("array_example.hdf5")
 os.remove("example.hdf5")
+os.remove("stdout.tmp")
