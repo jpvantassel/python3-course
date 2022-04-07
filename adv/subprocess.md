@@ -2,7 +2,7 @@
 
 > Joseph Vantassel, The University of Texas at Austin
 
-[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/python3-course/blob/master/LICENSE.md)
+[![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/python3-course/blob/main/LICENSE.md)
 
 _Note: this module assumes the user is on a *nix type machine if you are using
 Windows machine you will need to modify the examples below for compatibility._
