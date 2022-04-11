@@ -1,1 +1,0 @@
-This information has been moved [here](https://github.com/jpvantassel/python3-course/blob/master/intro/installing_python.md).
