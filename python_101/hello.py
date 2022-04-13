@@ -1,1 +1,0 @@
-print("Howdy from Python module hello!")
