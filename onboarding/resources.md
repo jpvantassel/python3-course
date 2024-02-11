@@ -1,7 +1,8 @@
 # Student On-Boarding Resources: Python 3
 
 > Joseph P. Vantassel, [jpvantassel.com](https://www.jpvantassel.com/)
-> Lasted Updated: February 2023
+
+_Lasted Updated: February 2023_
 
 
 [![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/python3-course/blob/main/LICENSE.md)
@@ -34,7 +35,7 @@ plotting. After completing these you may find my personal notes
 - [Python 3 - A Non-Traditional Approach](https://jpvantassel.github.io/python3-course/#/) - 2 hours
 - [Numpy for Machine Learning](https://www.youtube.com/playlist?list=PLCC34OHNcOtpalASMlX2HHdsLNipyyhbK) - 1.5 hours
 - [ObsPy: A Python Toolbox for Seismology](https://www.youtube.com/watch?v=kFwdjfiK4gk) - 1 hour
-- [ObsPy Tutorial: Reading Seismogram](https://docs.obspy.org/tutorial/code_snippets/reading_seismograms.html) - 1 hour
+- [ObsPy Tutorial: Reading Seismograms](https://docs.obspy.org/tutorial/code_snippets/reading_seismograms.html) - 1 hour
 
 ## Comprehensive Online Courses
 
