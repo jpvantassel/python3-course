@@ -1,6 +1,6 @@
 # Numba and Jit
 
-> Joseph P. Vantassel, The University of Texas at Austin
+> Joseph P. Vantassel, [jpvantassel.com](https://www.jpvantassel.com/)
 
 [![License](https://img.shields.io/badge/license-CC--By--SA--4.0-brightgreen.svg)](https://github.com/jpvantassel/python3-course/blob/main/LICENSE.md)
 

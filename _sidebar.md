@@ -12,3 +12,6 @@
   * [Numba and Jit](adv/numba.md)
   * [Subprocess](adv/subprocess.md)
   * [Checklist for Releasing a Python Project](adv/release.md)
+
+* Onboarding
+  * [Resources](onboarding/resources.md)
