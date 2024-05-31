@@ -36,6 +36,8 @@ plotting. After completing these you may find my personal notes
 - [Numpy for Machine Learning](https://www.youtube.com/playlist?list=PLCC34OHNcOtpalASMlX2HHdsLNipyyhbK) - 1.5 hours
 - [ObsPy: A Python Toolbox for Seismology](https://www.youtube.com/watch?v=kFwdjfiK4gk) - 1 hour
 - [ObsPy Tutorial: Reading Seismograms](https://docs.obspy.org/tutorial/code_snippets/reading_seismograms.html) - 1 hour
+- [Pandas Tutorial Playlist by Corey Schafer](https://youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS&si=t0302LKue1jSZGsT) - 6 hours
+- [Python Data Science Handbook (NumPy, Pandas, Matplotlib, and Scikit-Learn)](https://jakevdp.github.io/PythonDataScienceHandbook/) - 20 hours
 
 ## Comprehensive Online Courses
 
